@@ -1,0 +1,9 @@
+#lunch-menu{
+	width: 95%;
+	float: left;
+}
+
+#Custooltip{
+	margin-left: 10px;
+	cursor: pointer;
+}

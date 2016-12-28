@@ -4,6 +4,7 @@
     <title>Lunch Checker</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/lunchCustom.css">
     <style>
       .message { font-size: 1.3em; font-weight: bold; }
     </style>
@@ -20,6 +21,7 @@
              <input id="lunch-menu" type="text" name="lunchmenu"
              placeholder="list comma separated dishes you usually have for lunch"
              class="form-control" ng-model="lunchmenu">
+             <img id="Custooltip" src="images/tooltip.png" style="height: 32px;width:32px;" title="We DO NOT consider an empty item [(eg: , ,) i.e Comma followed by single or number of space(s) followed by comma] as an item towards the count." />
          </div>
          <div class="form-group" >
              <button class="btn btn-default" ng-click="validateLunch()">Check If Too Much</button>
